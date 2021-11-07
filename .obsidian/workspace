@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "34c9809ead4532de",
+    "type": "split",
+    "children": [
+      {
+        "id": "46e85ae4d1e9c549",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/Writing Tips.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52a45107847f3c97",
+    "type": "split",
+    "children": [
+      {
+        "id": "923ba15348980c37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8190f1a22984e6d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ad38da749afa6116",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e80064515116eae9",
+    "type": "split",
+    "children": [
+      {
+        "id": "be3f3ab55d311eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b85ece88de8eb60e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Writing Tips.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "46e85ae4d1e9c549",
+  "lastOpenFiles": [
+    "docs/Writing Tips.md",
+    "docs/Infrastructure/Hosting Overview.md",
+    "docs/Services/Traefik.md",
+    "docs/code/docker-compose.md",
+    "docs/Services/Gitea.md",
+    "docs/index.md",
+    "Linux server.md",
+    "docs/Infrastructure/Raspberry Pi.md",
+    "docs/Infrastructure/VPS.md"
+  ]
+}

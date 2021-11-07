@@ -1,0 +1,74 @@
+site_name: Foundation
+repo_url: https://git.ktz.me/alexktz/foundation
+repo_name: alexktz/foundation
+edit_uri: _edit/master/docs
+
+theme:
+  name: material
+  language: en
+  #logo: images/site/logo.png
+  favicon: images/assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/regular/folder-open
+  palette:
+
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    code: Jet Brains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+  #insiders only
+    # - search.suggest
+    # - search.highlight
+    # - navigation.tracking # updates address bar with anchors
+
+
+plugins:
+  - git-revision-date
+  - search
+  - roamlinks 
+markdown_extensions:
+  - abbr
+  - admonition # enables coloured blocks mid article
+  - attr_list # improves image handling
+  - pymdownx.details # enables collapsible admonitions
+  - footnotes
+  - meta # adds support for front matter
+  - toc:
+      permalink: true
+  - pymdownx.highlight: # code highlighting
+      linenums: false
+  - pymdownx.tabbed # enables tabs for embedded blocks
+  - pymdownx.snippets
+  - pymdownx.superfences # allows for the nesting of code blocks inside other blocks
+  - pymdownx.keys
+
+
+copyright: 2021 &copy; Alex Kretzschmar
+extra:
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/ironicbadger'
+      name: IronicBadger on GitHub
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/ironicbadger'
+      name: IronicBadger on Twitter
+    - icon: 'fontawesome/brands/linkedin'
+      link: 'https://www.linkedin.com/in/alex-kretzschmar/'      
+    - icon: 'fontawesome/solid/microphone'
+      link: 'https://selfhosted.show/'
+      name: IronicBadger's Podcast - selfhosted.show

@@ -1,0 +1,7 @@
+mkdocs
+mkdocs-material
+mkdocs-material-extensions
+mkdocs-minify-plugin
+mkdocs-git-revision-date-plugin
+pymdown-extensions
+mkdocs-roamlinks-plugin
