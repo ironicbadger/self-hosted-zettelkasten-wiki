@@ -12,8 +12,6 @@ theme:
     repo: fontawesome/brands/github
     logo: fontawesome/regular/folder-open
   palette:
-
-  palette:
     - scheme: default
       primary: blue grey
       accent: orange
