@@ -1,6 +1,7 @@
 # Self-hosted Zettelkasten Wiki
 
-Link to blog post - link.
+* Link to blog post - link.
+* Link to published zettelkasten wiki - link.
 
 ## Overview
 

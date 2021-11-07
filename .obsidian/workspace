@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Writing Tips.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Writing Tips.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,12 +87,13 @@
   },
   "active": "46e85ae4d1e9c549",
   "lastOpenFiles": [
+    "README.md",
+    "docs/index.md",
     "docs/Writing Tips.md",
     "docs/Infrastructure/Hosting Overview.md",
     "docs/Services/Traefik.md",
     "docs/code/docker-compose.md",
     "docs/Services/Gitea.md",
-    "docs/index.md",
     "Linux server.md",
     "docs/Infrastructure/Raspberry Pi.md",
     "docs/Infrastructure/VPS.md"
