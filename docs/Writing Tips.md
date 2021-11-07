@@ -20,6 +20,6 @@ Before: [[Writing Tips#Backlinking to sub-headers]]
 After: [[Writing Tips#Backlinking to sub-headers|Custom Text]]
 ```
 
-`Before: [[Writing Tips#Backlinking to sub-headers]]`
+`Before: [\[Writing Tips#Backlinking to sub-headers]\]`
 	
 This would create a link to a sub-heading within this note and display the text "Custom Text" in the mkdocs rendered output and Obsidian preview pane.
