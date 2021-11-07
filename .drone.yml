@@ -4,7 +4,7 @@ type: docker
 name: buildsite
 steps:
 - name: build
-  image: ghcr.io/ironicbadger/mkdocs-material-insiders
+  image: squidfunk/mkdocs-material
   pull: if-not-exists
   volumes:
   - name: site
