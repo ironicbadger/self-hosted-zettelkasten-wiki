@@ -17,6 +17,4 @@ steps:
 volumes:
 - name: site
   host:
-    path: /mnt/nvme2tb/appdata/foundation
-image_pull_secrets:
-- dockerconfig
+    path: /tank/appdata/nginx_zetdemowiki
