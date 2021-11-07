@@ -1,5 +1,8 @@
 Backlinking is a crucial part of why this solution work so well. mkdocs uses a plugin called `roamlinks` to take care of turning `[[backlinks]]` into real links.
 
+!!!info
+    Page is a work in progress due to some weirdness with escaping. Take a look at the git repo in [plain text for this page](https://git.zetdemo.ktz.me/ironicbadger/self-hosted-zettelkasten-wiki/raw/branch/main/docs/Writing%20Tips.md) to get a better understanding for now.
+
 ## Customising the text of a link
 
 Let's say the name of your note does not make sense in the context of sentence into which the backlink has been placed, what then? We can customise the text of a link like so:
@@ -18,13 +21,6 @@ We can take this even further by customising the text of a link to a specific su
 ```md
 Before: [[Writing Tips#Backlinking to sub-headers]]
 After: [[Writing Tips#Backlinking to sub-headers|Custom Text]]
-```
-
-`Before: [\[Writing Tips#Backlinking to sub-headers]\]`
-
-```md
-[[Gitea#docker-compose snippet]]
-[[Gitea#docker-compose snippet|test]]
 ```
 	
 [[Gitea#docker-compose snippet]]
