@@ -1,7 +1,9 @@
 Backlinking is a crucial part of why this solution work so well. mkdocs uses a plugin called `roamlinks` to take care of turning `[[backlinks]]` into real links.
 
-!!!info
-    Page is a work in progress due to some weirdness with escaping. Take a look at the git repo in [plain text for this page](https://git.zetdemo.ktz.me/ironicbadger/self-hosted-zettelkasten-wiki/raw/branch/main/docs/Writing%20Tips.md) to get a better understanding for now.
+```ad-caution
+Page is a work in progress due to some weirdness with escaping. Take a look at the git repo in [plain text for this page](https://git.zetdemo.ktz.me/ironicbadger/self-hosted-zettelkasten-wiki/raw/branch/main/docs/Writing%20Tips.md) to get a better understanding for now.
+```
+
 
 ## Customising the text of a link
 
