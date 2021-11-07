@@ -27,4 +27,6 @@ After: [[Writing Tips#Backlinking to sub-headers|Custom Text]]
 [[Gitea#docker-compose snippet|test]]
 ```
 	
+[[Gitea#docker-compose snippet]]
+	
 This would create a link to a sub-heading within this note and display the text "Custom Text" in the mkdocs rendered output and Obsidian preview pane.
