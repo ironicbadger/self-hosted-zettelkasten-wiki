@@ -13,7 +13,9 @@ That would create a link to this note with the text "Custom Text" in the mkdocs 
 
 We can take this even further by customising the text of a link to a specific sub-heading within a back-linked page as well. Like so:
 
-    Before: [[Writing Tips#Backlinking to sub-headers]]
-	After: [[Writing Tips#Backlinking to sub-headers|Custom Text]]
+```
+Before: [[Writing Tips#Backlinking to sub-headers]]
+After: [[Writing Tips#Backlinking to sub-headers|Custom Text]]
+```
 	
 This would create a link to a sub-heading within this note and display the text "Custom Text" in the mkdocs rendered output and Obsidian preview pane.
