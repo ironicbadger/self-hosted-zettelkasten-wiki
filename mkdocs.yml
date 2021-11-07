@@ -28,8 +28,8 @@ theme:
     code: Jet Brains Mono
   features:
     - navigation.instant
-    - navigation.tabs
-    - navigation.tabs.sticky
+    #- navigation.tabs
+    #- navigation.tabs.sticky
     - toc.integrate
   #insiders only
     # - search.suggest
