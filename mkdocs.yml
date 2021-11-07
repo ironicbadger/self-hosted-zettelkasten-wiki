@@ -1,7 +1,7 @@
-site_name: Foundation
-repo_url: https://git.ktz.me/alexktz/foundation
-repo_name: alexktz/foundation
-edit_uri: _edit/master/docs
+site_name: Zetdemo
+repo_url: https://git.zetdemo.ktz.me/ironicbadger/self-hosted-zettelkasten-wiki
+repo_name: ironicbadger/self-hosted-zettelkasten-wiki
+edit_uri: _edit/main/docs
 
 theme:
   name: material
@@ -30,7 +30,8 @@ theme:
     - navigation.instant
     #- navigation.tabs
     #- navigation.tabs.sticky
-    - navigation.expand #expands sections by default
+    #- navigation.expand #expands sections by default
+    - navigation.sections
     - toc.integrate
   #insiders only
     # - search.suggest
